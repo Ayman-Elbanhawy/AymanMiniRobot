@@ -1,0 +1,8 @@
+add your api key to ufo/config/config.yaml
+
+in command prompt:
+$env:OPENAI_API_KEY = "sk-"
+set OPENAI_API_KEY="sk-"
+
+to run:
+clear ; python -m ufo --task test
