@@ -1,0 +1,13 @@
+{
+    "task": "Create and format a new Word document",
+    "steps": [
+        "1. Open Microsoft Word from the Start menu or desktop.",
+        "2. In Microsoft Word, create a new blank document.",
+        "3. Type in 'Test For Fun'.",
+        "4. Save the document as 'draft.docx' in the desired folder.",
+        "5. Select the 'Test For Fun' text.",
+        "6. Click the 'Home' tab to show the 'Styles' ribbon tab.",
+        "7. Click 'Heading 1' style to apply the style to the selected text."
+    ],
+    "object": "draft.docx"
+}
