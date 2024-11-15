@@ -6,12 +6,13 @@ from .. import utils
 from art import text2art
 from typing import Tuple
 
-
+# Global variable to track confirmation mode
+AUTO_CONFIRM = False
 WELCOME_TEXT = """
-Welcome to use UFO🛸, A UI-focused Agent for Windows OS Interaction. 
+Welcome to use Ayman's Mini Robot Helper AI🛸, A UI-focused Agent for Windows OS Interaction. 
 {art}
 Please enter your request to be completed🛸: """.format(
-    art=text2art("UFO")
+    art=text2art("AYMAN   MINI   ROBOT")
 )
 
 
@@ -76,6 +77,24 @@ def question_asker(question: str, index: int) -> str:
 
     return input()
 
+def start_confirmation_mode():
+    """
+    Ask the user if they want automatic or manual confirmation mode.
+    """
+    global AUTO_CONFIRM
+    utils.print_with_color(
+        "Do you want to run in Automatic or Manual confirmation mode? Enter 'A' for Automatic and 'M' for Manual:",
+        "cyan"
+    )
+    mode = input().upper()
+
+    if mode == "A":
+        AUTO_CONFIRM = True
+        utils.print_with_color("Running in Automatic mode. Sensitive actions will be confirmed automatically.", "green")
+    else:
+        AUTO_CONFIRM = False
+        utils.print_with_color("Running in Manual mode. Sensitive actions will require user confirmation.", "yellow")
+
 
 def sensitive_step_asker(action, control_text) -> bool:
     """
@@ -84,6 +103,13 @@ def sensitive_step_asker(action, control_text) -> bool:
     :param control_text: The control text.
     :return: Whether to proceed.
     """
+
+    global AUTO_CONFIRM
+
+    if AUTO_CONFIRM:
+        # Automatically confirm for all sensitive actions
+        utils.print_with_color("Running in Automatic mode. Sensitive actions will be confirmed automatically.", "red")
+        return True
 
     utils.print_with_color(
         "[Input Required:] UFO🛸 will apply {action} on the [{control_text}] item. Please confirm whether to proceed or not. Please input Y or N.".format(
@@ -101,3 +127,6 @@ def sensitive_step_asker(action, control_text) -> bool:
             return False
         else:
             print("Invalid choice. Please enter either Y or N. Try again.")
+
+# Call start_confirmation_mode at the start of the program execution
+start_confirmation_mode()
