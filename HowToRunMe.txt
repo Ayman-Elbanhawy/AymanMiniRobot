@@ -1,0 +1,7 @@
+https://github.com/microsoft/UFO
+
+$env:OPENAI_API_KEY = ""
+
+ set OPENAI_API_KEY=""
+
+clear ; python -m ufo --task test

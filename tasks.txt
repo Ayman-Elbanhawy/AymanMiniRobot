@@ -1,0 +1,43 @@
+1. Open a new tab in Microsoft Edge browser.
+2. In the new tab, navigate to "https://www.youtube.com".
+3. Wait for the YouTube homepage to load completely.
+4. Locate the search bar on the YouTube homepage.
+5. In the YouTube search bar, enter the search term "latest news about Trump" and press Enter.
+6. Wait for the search results to load, then end the task.
+
+
+1. Open Microsoft Outlook and wait for the main window to load.
+2. Click on "New Email" to open a new email composition window.
+3. In the "To" field, enter "a@gmail.com".
+4. In the "Cc" field, enter "a@hotmail.com".
+5. In the "Subject" field, type "this is a test from ufo".
+6. In the main email body area, write "this was sent from my work email".
+7. Review the email to ensure all fields are correctly filled out.
+8. Click "Send" to send the email.
+9. Confirm that the email has been sent and close the email composition window.
+10. Close Outlook (optional, if no further tasks require Outlook to remain open).
+
+
+Open Microsoft Outlook and wait for the main window to load., Click on "New Email" to open a new email composition window., In the "To" field, enter "a@gmail.com"., In the "Cc" field, enter "a@hotmail.com"., In the "Subject" field, type "this is a test from ufo"., In the main email body area, write "this was sent from my work email"., Review the email to ensure all fields are correctly filled out., Click "Send" to send the email., Confirm that the email has been sent and close the email composition window.
+
+Step 1. Open Microsoft Outlook and wait for the main window to load.
+Step 2. Click on "New Email" to open a new email composition window.
+Step 3. In the "To" field, enter "a@gmail.com".
+Step 4. In the "Cc" field, enter "a@hotmail.com".
+Step 5. In the "Subject" field, type "this is a test from ufo".
+Step 6. In the main email body area, write "this was sent from my work email".
+Step 7. Review the email to ensure all fields are correctly filled out.
+Step 8. Click "Send" to send the email.
+Step 9. Confirm that the email has been sent and close the email composition window.
+Step 10. Close Outlook (optional, if no further tasks require Outlook to remain open).
+
+
+Automatic Mode:
+Step 1. Open Microsoft Outlook and wait for the main window to load.
+Step 2. Click on "New Email" to open a new email composition window.
+Step 3. In the "To" field, enter "a@gmail.com".
+Step 4. In the "Cc" field, enter "a@hotmail.com".
+Step 5. In the "Subject" field, type "this is a test from ufo".
+Step 6. In the main email body area, write "this was sent from my work email".
+Step 7. Click "Send" to send the email.
+
