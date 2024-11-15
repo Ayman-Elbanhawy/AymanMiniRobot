@@ -79,6 +79,13 @@ class AppAgentProcessor(BaseProcessor):
             "magenta",
         )
 
+    def update_step(self) -> None:
+        """
+        Update the step information in the session context.
+        """
+        self.context.set(ContextNames.CURRENT_ROUND_STEP, self.round_step + 1)
+        self.context.set(ContextNames.SESSION_STEP, self.session_step + 1)
+
     @BaseProcessor.method_timer
     def capture_screenshot(self) -> None:
         """
